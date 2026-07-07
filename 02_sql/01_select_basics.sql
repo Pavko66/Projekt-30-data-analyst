@@ -104,3 +104,24 @@ FROM orders;
 -- orders
 
 -- Na razie ten plik jest notatką i ćwiczeniem składni SQL.
+
+
+-- ============================================================
+-- 8. WNIOSKI PO SQLBOLT LESSON 1
+-- ============================================================
+
+-- SELECT pozwala wybrać kolumny, które chcemy zobaczyć.
+-- FROM wskazuje tabelę, z której pobieramy dane.
+-- SELECT * pokazuje wszystkie kolumny, ale w praktyce lepiej wybierać tylko potrzebne.
+-- Zapytania SQL kończymy średnikiem.
+
+-- Przykład po lekcji SQLBolt:
+
+SELECT title, director
+FROM movies;
+
+SELECT title, year
+FROM movies;
+
+SELECT title, length_minutes
+FROM movies;
